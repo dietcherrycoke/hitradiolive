@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GGX4NTH9BE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-GGX4NTH9BE');
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hit Radio Live</title>
@@ -121,6 +129,14 @@
       color: rgba(240, 230, 255, 0.85);
       margin-bottom: 40px;
     }
+    .show-section .show-note {
+      font-size: 0.9rem;
+      font-style: italic;
+      color: rgba(0, 212, 255, 0.75);
+      letter-spacing: 0.5px;
+      margin-bottom: 36px;
+      margin-top: -16px;
+    }
 
     /* VIDEO */
     .video-section { padding: 20px 24px 100px; text-align: center; }
@@ -191,16 +207,16 @@
   <section class="hero">
     <img class="hero-image" src="images/hrl-hero.png" alt="Hit Radio Live">
     <div class="hero-caption">
-      <div class="tagline">Recreating the sound of those timeless radio hits</div>
+      <div class="tagline">Yacht Rock &middot; 80s &middot; Sing-Along Hits</div>
       <p class="hero-description">
-        Hit Radio Live is ready to bring their non-stop, feel-good,
-        "Best Of" sing-along show to you!
+        Hit Radio Live brings non-stop, feel-good "Best Of" themed shows
+        to venues across the Southeast.
       </p>
     </div>
   </section>
   <section class="show-section">
     <div class="show-inner">
-      <span class="show-label">Now Presenting</span>
+      <span class="show-label">Featured Show</span>
       <h2>SAILING INTO <br><span>THE 80's</span></h2>
       <p>
         A show comprised of the best of Yacht Rock AND the 80's! Come celebrate
@@ -208,6 +224,11 @@
         the 80's as Hit Radio Live takes you back. Whether it's smooth sailing
         or the over-the-top 80's sound, HRL has it covered!
       </p>
+      <p class="show-note">
+        Also available: themed shows, decade tributes, and custom sets
+        tailored to your event.
+      </p>
+      <a href="mailto:info@hitradioentertainment.com?subject=HRL Booking Inquiry" class="cta-btn">Book Us</a>
     </div>
   </section>
 </main>
